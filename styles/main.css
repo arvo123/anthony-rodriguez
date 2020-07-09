@@ -147,13 +147,11 @@ p.subheader {
   background: linear-gradient(90deg, rgba(27,43,159,1) 35%, rgba(0,59,180,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b2b9f",endColorstr="#003bb4",GradientType=1); */
   color: #0c0c0c;
-
   background-color: #d8dce5;
   background-repeat: no-repeat;
   background-image: url(../img/bg/mtn-v2.jpg);
   background-position: center bottom;
   background-size: contain;
-
 }
 #gallery .card {
   display: block;
@@ -195,9 +193,20 @@ p.subheader {
 }
 #contact label {
   margin: 0;
+  font-weight: 500;
 }
-.view-resume:link {
+a.view-resume:link,
+a.view-resume:visited {
   color: #fff;
+}
+a.view-resume:hover,
+a.view-resume:active {
+  text-decoration: none;
+}
+#contact input, #contact textarea {
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
 }
 .social-media {
   display: flex;
