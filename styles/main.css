@@ -140,27 +140,27 @@ p.subheader {
 
 /* GALLERY */
 #gallery {
-  /* background-color: #1b2b9f; */
+  background-color: #fff;
+
   /* background: rgb(27,43,159);
   background: -moz-linear-gradient(90deg, rgba(27,43,159,1) 35%, rgba(0,59,180,1) 100%);
   background: -webkit-linear-gradient(90deg, rgba(27,43,159,1) 35%, rgba(0,59,180,1) 100%);
   background: linear-gradient(90deg, rgba(27,43,159,1) 35%, rgba(0,59,180,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b2b9f",endColorstr="#003bb4",GradientType=1); */
-  color: #0c0c0c;
-  background-color: #d8dce5;
+
+  /* color: #0c0c0c;
+  background-color: #f3f4f9;
   background-repeat: no-repeat;
-  background-image: url(../img/bg/mtn-v2.jpg);
-  background-position: center bottom;
-  background-size: contain;
+  background-image: url(../img/bg/px-bg.jpg);
+  background-position: center top;
+  background-size: contain; */
+
 }
 #gallery .card {
   display: block;
   margin: 0 auto;
   max-width: 20em;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-.gal-box {
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: #f8f8f8;
 }
 .card {
   height: 100%;
@@ -183,21 +183,37 @@ p.subheader {
 
 /* CONTACT */
 #contact {
-  background-color: #0c0c0c;
+  /* background-color: #d6dde5; */
   color: #f8f8f8;
   /* height: 100%; */
   /* max-height: 1000px; */
-  /* background-image: url(../img/bg/mtn-v3.jpg);
+  /* background-image: url(../img/bg/mtn-v2.jpg);
   background-position: 50% 0%;
   background-size: cover; */
+
+  color: #0c0c0c;
+  background-color: #d8dce5;
+  background-repeat: no-repeat;
+  /* background-image: url(../img/bg/mtn-v2.jpg); */
+  background-image: url(../img/bg/mtn-v2.jpg);
+  background-position: center bottom;
+  background-size: cover;
+
 }
+#contact form {
+    padding: 2em;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.35);
+}
+
 #contact label {
   margin: 0;
   font-weight: 500;
+  color: #0c0c0c;
 }
 a.view-resume:link,
 a.view-resume:visited {
-  color: #fff;
+  color: #f8f8f8;
 }
 a.view-resume:hover,
 a.view-resume:active {
@@ -205,7 +221,7 @@ a.view-resume:active {
 }
 #contact input, #contact textarea {
   border: 0;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 3px;
 }
 .social-media {
