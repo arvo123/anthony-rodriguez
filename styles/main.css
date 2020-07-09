@@ -5,7 +5,7 @@ body {
   width: 100%;
   margin: 0;
   font-size: 16px;
-  color: #111;
+  color: #0c0c0c;
 }
 .btn {
   border: 0;
@@ -21,7 +21,7 @@ body {
   background-color: rgba(0,59,180,1);
 }
 .btn-secondary {
-  /* background-color: #fff; */
+  background-color: #777;
 }
 .section {
   padding: 2em;
@@ -34,6 +34,7 @@ header {
   flex-flow: column;
   height: 100%;
   /* max-height: 1000px; */
+  /* background-image: url(../img/bg/mic.jpg); */
   background-image: url(../img/bg/mic.jpg);
   background-position: 50% 45%;
   background-size: cover;
@@ -87,16 +88,16 @@ p.subheader {
   padding: 0.75em 0;
   border-radius: 2px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: #f8f8f8;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  color: #000;
+  color: #0c0c0c;
   font-size: 1em;
-  box-shadow: 3px 3px 5px 0px #111;
+  box-shadow: 3px 3px 5px 0px #0c0c0c;
   transition: 0.2s;
 }
 #demo-reels .btn-primary:hover {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 #demo-reels svg {
   margin-left: 0.5em;
@@ -120,24 +121,45 @@ p.subheader {
 .port-img {
   max-width: 100%;
 }
+.resume-icon {
+  width: 100%;
+  max-width: 450px;
+}
+.port-thumb {
+  border: 1px solid #0c0c0c;
+}
 @media screen and (min-width: 992px) {
 
+}
+
+/* RESUME */
+#resume {
+  /* border-top: 1px solid #b7b7b7; */
+  background-color: #ececec;
 }
 
 /* GALLERY */
 #gallery {
   /* background-color: #1b2b9f; */
-  background: rgb(27,43,159);
+  /* background: rgb(27,43,159);
   background: -moz-linear-gradient(90deg, rgba(27,43,159,1) 35%, rgba(0,59,180,1) 100%);
   background: -webkit-linear-gradient(90deg, rgba(27,43,159,1) 35%, rgba(0,59,180,1) 100%);
   background: linear-gradient(90deg, rgba(27,43,159,1) 35%, rgba(0,59,180,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b2b9f",endColorstr="#003bb4",GradientType=1);
-  color: #f8f8f8;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1b2b9f",endColorstr="#003bb4",GradientType=1); */
+  color: #0c0c0c;
+
+  background-color: #d8dce5;
+  background-repeat: no-repeat;
+  background-image: url(../img/bg/mtn-v2.jpg);
+  background-position: center bottom;
+  background-size: contain;
+
 }
 #gallery .card {
   display: block;
   margin: 0 auto;
   max-width: 20em;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .gal-box {
   background-color: rgba(255, 255, 255, 0.15);
@@ -147,22 +169,80 @@ p.subheader {
   /* min-height: 600px; */
 }
 .card-body {
-  color: #111;
+  color: #0c0c0c;
+}
+.card img {
+  padding: 1.5rem 1.5rem 0 1.5rem;
+}
+.card .btn {
+  display: block;
+  margin: 0 auto;
+}
+.card .btn-secondary {
+  max-width: 225px;
+  background-color: #0c0c0c;
 }
 
 /* CONTACT */
 #contact {
-  background-color: #111;
+  background-color: #0c0c0c;
   color: #f8f8f8;
+  /* height: 100%; */
+  /* max-height: 1000px; */
+  /* background-image: url(../img/bg/mtn-v3.jpg);
+  background-position: 50% 0%;
+  background-size: cover; */
 }
 #contact label {
   margin: 0;
+}
+.view-resume:link {
+  color: #fff;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-media a:link,
+.social-media a:visited {
+  margin-right: 0.3em;
+  /* color: #f8f8f8; */
+}
+.social-media a:hover,
+.social-media a:active {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+a.yt {
+  color: #c4302b;
+  font-size: 1.5em;
+}
+a.yt:hover {
+  color: #c4302b;
+}
+a.tw {
+  color: #00acee;
+  font-size: 1.5em;
+}
+a.tw:hover {
+  color: #00acee;
+}
+a.voices {
+  color: #f8f8f8;
+  font-size: 1.1em;
+}
+a.voices:hover {
+  color: #f8f8f8;
+}
+.voices-icon {
+  height: 18px;
 }
 
 /* FOOTER */
 footer {
   padding: 0.5em;
-  background-color: #000;
+  background-color: #0c0c0c;
   color: #ddd;
   text-align: center;
   font-size: 0.8em;
