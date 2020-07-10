@@ -102,6 +102,9 @@ p.subheader {
 #demo-reels svg {
   margin-left: 0.5em;
 }
+#demo-reels .far {
+  /* color: #bd0000; */
+}
 
 /* ABOUT */
 #about {
@@ -203,7 +206,7 @@ p.subheader {
 #contact form {
     padding: 2em;
     border-radius: 6px;
-    background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 #contact label {
@@ -220,8 +223,7 @@ a.view-resume:active {
   text-decoration: none;
 }
 #contact input, #contact textarea {
-  border: 0;
-  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid #ccc;
   border-radius: 3px;
 }
 .social-media {
