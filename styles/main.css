@@ -26,6 +26,9 @@ body {
 .section {
   padding: 2em;
 }
+h5 {
+  margin: 1em 0 0.3em 0;
+}
 
 
 /* HEADER */
@@ -109,7 +112,8 @@ p.subheader {
 /* ABOUT */
 #about {
   padding: 0;
-  background-color: #f8f8f8;
+  /* background-color: #f8f8f8; */
+  background-color: #fff;
 }
 .about-textwrap {
   padding-top: 2em;
@@ -138,7 +142,29 @@ p.subheader {
 /* RESUME */
 #resume {
   /* border-top: 1px solid #b7b7b7; */
-  background-color: #ececec;
+  background-color: #f8f8f8;
+
+}
+.resume-wrap {
+  border: 1px solid #d9d9d9;
+  margin-bottom: 3em;
+  /* background-color: #fff;hhh */
+  /* background-color: #f8f8f8; */
+  background-color: #fff;
+  padding: 2em;
+}
+.table-wrap {
+  overflow-x: auto;
+}
+.voice-over-table {
+  max-width: 800px;
+}
+.voice-over-table td {
+  min-width: 200px;
+  padding-right: 1em;
+}
+.voice-over-table td:last-of-type {
+  padding: 0;
 }
 
 /* GALLERY */
