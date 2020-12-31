@@ -195,6 +195,9 @@ p.subheader {
 }
 [class*=" imghvr-"] figcaption, [class^=imghvr-] figcaption { /* gallery item hover */
   background-color: #0c0c0c !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 [class*=" imghvr-"]>img, [class^=imghvr-]>img {
   width: 318px !important;
